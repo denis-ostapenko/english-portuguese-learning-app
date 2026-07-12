@@ -1,0 +1,11 @@
+.DS_Store
+.playwright-cli/
+*.log
+work/
+progress-*.json
+.env
+.env.*
+!.env.example
+tmp/
+__pycache__/
+*.pyc
