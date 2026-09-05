@@ -8,6 +8,21 @@ Version 0.91.
 
 Created by [Denis Ostapenko](https://denisostapenko.com).
 
+[Leia em português brasileiro](README.pt-BR.md)
+
+## Who it is for
+
+This is for adult learners who already know English or Brazilian Portuguese and want to build everyday vocabulary, listening, and speaking habits in the other language. It combines short study sessions, recorded examples, visual vocabulary, and scheduled review.
+
+## Your first session
+
+1. Open the live application and choose the language you already know.
+2. Follow the Today page: review due cards, study a small set of new items, and listen to one situation.
+3. Say the example lines aloud and use the recall result to choose your next review.
+4. Return on later days for spaced repetition. Use Settings to adjust your daily goal or change direction; each direction keeps its own progress.
+
+Start with the [user guide](USER_GUIDE.md) for the controls and the [learning recommendations](RECOMMENDATIONS.md) for a study routine. No AI service is needed to follow this path.
+
 ## What it does
 
 At first launch, the learner chooses a language they already know:
@@ -40,6 +55,8 @@ The course shell and course text work without an account, API key or internet co
 The application is static. Start any local web server in this directory:
 
 ```bash
+git clone https://github.com/denis-ostapenko/english-portuguese-learning-app.git
+cd english-portuguese-learning-app
 python3 -m http.server 4177 --bind 127.0.0.1
 ```
 

@@ -8,6 +8,21 @@ Versão 0.91.
 
 Criado por [Denis Ostapenko](https://denisostapenko.com).
 
+[Read in American English](README.md)
+
+## Para quem é
+
+O aplicativo foi feito para adultos que já sabem inglês ou português brasileiro e querem desenvolver vocabulário, compreensão auditiva e hábitos de fala no outro idioma. Ele combina sessões curtas de estudo, exemplos gravados, vocabulário visual e revisões programadas.
+
+## Sua primeira sessão
+
+1. Abra o aplicativo e escolha o idioma que você já conhece.
+2. Siga a página Hoje: faça as revisões pendentes, estude um pequeno conjunto de itens novos e ouça uma situação.
+3. Repita as falas em voz alta e escolha a próxima revisão conforme o que conseguiu lembrar.
+4. Volte nos dias seguintes para a repetição espaçada. Em Ajustes, ajuste a meta diária ou mude o idioma de estudo; cada direção mantém seu próprio progresso.
+
+Consulte o [guia do usuário](USER_GUIDE.pt-BR.md) para conhecer os controles e as [recomendações de estudo](RECOMMENDATIONS.pt-BR.md) para organizar sua rotina. Não é preciso usar um serviço de IA para seguir esse percurso.
+
 ## Como funciona
 
 No primeiro acesso, o aluno escolhe o idioma que já conhece:
@@ -40,6 +55,8 @@ A estrutura e o texto do curso funcionam sem conta, chave de API ou internet dep
 Inicie um servidor web nesta pasta:
 
 ```bash
+git clone https://github.com/denis-ostapenko/english-portuguese-learning-app.git
+cd english-portuguese-learning-app
 python3 -m http.server 4177 --bind 127.0.0.1
 ```
 

@@ -30,7 +30,7 @@ Before publishing:
 2. Search for credential patterns and local key-file references.
 3. Open both learning directions in a real browser.
 4. Test Learn, Review, Words, Situations, Grammar, Tutor and Settings.
-5. Confirm audio falls back to browser speech when a file is unavailable.
+5. Confirm unavailable audio is reported explicitly and predefined course content never falls back to browser or operating-system speech.
 6. Confirm progress export contains no API key.
 
 ## License
